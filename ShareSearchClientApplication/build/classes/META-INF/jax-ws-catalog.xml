@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:9090/ShareSearch/ShareSearch?wsdl" uri="wsdl/localhost_9090/ShareSearch/ShareSearch.wsdl"/>
+    <system systemId="http://localhost:9090/ShareSearch/ShareSearch?xsd=1" uri="wsdl/localhost_9090/ShareSearch/ShareSearch.xsd_1.xsd"/>
+    <system systemId="http://localhost:9090/ShareSearch/ShareSearch?xsd=2" uri="wsdl/localhost_9090/ShareSearch/ShareSearch.xsd_2.xsd"/>
+    <system systemId="http://localhost:8080/ShareSearch/ShareSearch?wsdl" uri="wsdl/localhost_8080/ShareSearch/ShareSearch.wsdl"/>
+    <system systemId="http://localhost:8080/ShareSearch/ShareSearch?xsd=1" uri="wsdl/localhost_8080/ShareSearch/ShareSearch.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/ShareSearch/ShareSearch?xsd=2" uri="wsdl/localhost_8080/ShareSearch/ShareSearch.xsd_2.xsd"/>
+    <system systemId="http://localhost:9090/CurrencyConvertor/CurrencyConversionWSService?wsdl" uri="wsdl/localhost_9090/CurrencyConvertor/CurrencyConversionWSService.wsdl"/>
+    <system systemId="http://localhost:9090/CurrencyConvertor/CurrencyConversionWSService?xsd=1" uri="wsdl/localhost_9090/CurrencyConvertor/CurrencyConversionWSService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/CurrencyConvertor/CurrencyConversionWSService?wsdl" uri="wsdl/localhost_8080/CurrencyConvertor/CurrencyConversionWSService.wsdl"/>
+    <system systemId="http://localhost:8080/CurrencyConvertor/CurrencyConversionWSService?xsd=1" uri="wsdl/localhost_8080/CurrencyConvertor/CurrencyConversionWSService.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/UserApplication/UserSearch?wsdl" uri="wsdl/localhost_8080/UserApplication/UserSearch.wsdl"/>
+    <system systemId="http://localhost:8080/UserApplication/UserSearch?xsd=1" uri="wsdl/localhost_8080/UserApplication/UserSearch.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/UserApplication/UserSearch?xsd=2" uri="wsdl/localhost_8080/UserApplication/UserSearch.xsd_2.xsd"/>
+</catalog>

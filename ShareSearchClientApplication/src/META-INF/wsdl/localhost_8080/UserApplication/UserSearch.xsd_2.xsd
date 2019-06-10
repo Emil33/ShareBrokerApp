@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://users/" xmlns:ns1="http://xml.netbeans.org/schema/UsersSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://users/">
+
+<xs:import namespace="http://xml.netbeans.org/schema/UsersSchema" schemaLocation="http://localhost:8080/UserApplication/UserSearch?xsd=1"/>
+
+<xs:element name="GetOwnedShares" type="tns:GetOwnedShares"/>
+
+<xs:element name="GetOwnedSharesResponse" type="tns:GetOwnedSharesResponse"/>
+
+<xs:element name="GetUsers" type="tns:GetUsers"/>
+
+<xs:element name="GetUsersResponse" type="tns:GetUsersResponse"/>
+
+<xs:element name="GiveAdminPermission" type="tns:GiveAdminPermission"/>
+
+<xs:element name="GiveAdminPermissionResponse" type="tns:GiveAdminPermissionResponse"/>
+
+<xs:element name="RegisterUser" type="tns:RegisterUser"/>
+
+<xs:element name="RegisterUserResponse" type="tns:RegisterUserResponse"/>
+
+<xs:element name="RemoveUser" type="tns:RemoveUser"/>
+
+<xs:element name="RemoveUserResponse" type="tns:RemoveUserResponse"/>
+
+<xs:element name="ShareDeletedReturnMoney" type="tns:ShareDeletedReturnMoney"/>
+
+<xs:element name="ShareDeletedReturnMoneyResponse" type="tns:ShareDeletedReturnMoneyResponse"/>
+
+<xs:element name="UpdateOwnedSharesBuy" type="tns:UpdateOwnedSharesBuy"/>
+
+<xs:element name="UpdateOwnedSharesBuyResponse" type="tns:UpdateOwnedSharesBuyResponse"/>
+
+<xs:element name="UpdateOwnedSharesSell" type="tns:UpdateOwnedSharesSell"/>
+
+<xs:element name="UpdateOwnedSharesSellResponse" type="tns:UpdateOwnedSharesSellResponse"/>
+
+<xs:complexType name="RegisterUser">
+<xs:sequence>
+<xs:element name="moneyValue" type="xs:double"/>
+<xs:element name="moneyCurrency" type="xs:string" minOccurs="0"/>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="userPassword" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RegisterUserResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GetUsers">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="GetUsersResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:User" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ShareDeletedReturnMoney">
+<xs:sequence>
+<xs:element name="shareSymbol" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ShareDeletedReturnMoneyResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GiveAdminPermission">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="adminPermission" type="xs:boolean"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GiveAdminPermissionResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GetOwnedShares">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="GetOwnedSharesResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:SharesOwned" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RemoveUser">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RemoveUserResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="UpdateOwnedSharesSell">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="shareSymbol" type="xs:string" minOccurs="0"/>
+<xs:element name="amountOfShares" type="xs:int"/>
+<xs:element name="sharePrice" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="UpdateOwnedSharesSellResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="UpdateOwnedSharesBuy">
+<xs:sequence>
+<xs:element name="userName" type="xs:string" minOccurs="0"/>
+<xs:element name="shareSymbol" type="xs:string" minOccurs="0"/>
+<xs:element name="amountOfShares" type="xs:int"/>
+<xs:element name="sharePrice" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="UpdateOwnedSharesBuyResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

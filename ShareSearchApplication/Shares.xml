@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ShareList xmlns="http://xml.netbeans.org/schema/SharesSchema">
+    <shares>
+        <companyName>Alphabet</companyName>
+        <companySymbol>GOOG</companySymbol>
+        <availableShares>85</availableShares>
+        <priceUpdated>2019-01-18Z</priceUpdated>
+        <sector>Technology</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>1098.26</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Microsoft Corporation</companyName>
+        <companySymbol>MSFT</companySymbol>
+        <availableShares>25</availableShares>
+        <priceUpdated>2019-01-18Z</priceUpdated>
+        <sector>Technology</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>107.71</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Amazon.com</companyName>
+        <companySymbol>AMZN</companySymbol>
+        <availableShares>30</availableShares>
+        <priceUpdated>2019-01-18Z</priceUpdated>
+        <sector>Consumer Discretionary</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>1696.2</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Apple INC</companyName>
+        <companySymbol>AAPL</companySymbol>
+        <availableShares>400</availableShares>
+        <priceUpdated>2019-01-18Z</priceUpdated>
+        <sector>Technology</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>156.82</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Tesco PLC</companyName>
+        <companySymbol>TSCO</companySymbol>
+        <availableShares>100</availableShares>
+        <priceUpdated>2019-01-18Z</priceUpdated>
+        <sector>Consumer Discretionary</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>89.48</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Tesla INC</companyName>
+        <companySymbol>TSLA</companySymbol>
+        <availableShares>350</availableShares>
+        <priceUpdated>2019-01-18Z</priceUpdated>
+        <sector>Technology</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>302.26</value>
+        </sharePrice>
+    </shares>
+</ShareList>

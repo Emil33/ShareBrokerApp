@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://shares.me.org/" xmlns:ns1="http://xml.netbeans.org/schema/SharesSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://shares.me.org/">
+
+<xs:import namespace="http://xml.netbeans.org/schema/SharesSchema" schemaLocation="http://localhost:8080/ShareSearch/ShareSearch?xsd=1"/>
+
+<xs:element name="AddShare" type="tns:AddShare"/>
+
+<xs:element name="AddShareResponse" type="tns:AddShareResponse"/>
+
+<xs:element name="BuyShares" type="tns:BuyShares"/>
+
+<xs:element name="BuySharesResponse" type="tns:BuySharesResponse"/>
+
+<xs:element name="DatatypeConfigurationException" type="tns:DatatypeConfigurationException"/>
+
+<xs:element name="DisplayShares" type="tns:DisplayShares"/>
+
+<xs:element name="DisplaySharesResponse" type="tns:DisplaySharesResponse"/>
+
+<xs:element name="RemoveShare" type="tns:RemoveShare"/>
+
+<xs:element name="RemoveShareResponse" type="tns:RemoveShareResponse"/>
+
+<xs:element name="SellShares" type="tns:SellShares"/>
+
+<xs:element name="SellSharesResponse" type="tns:SellSharesResponse"/>
+
+<xs:complexType name="RemoveShare">
+<xs:sequence>
+<xs:element name="shareSymbol" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RemoveShareResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BuyShares">
+<xs:sequence>
+<xs:element name="shareSymbol" type="xs:string" minOccurs="0"/>
+<xs:element name="amountOfShares" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BuySharesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DisplayShares">
+<xs:sequence/>
+</xs:complexType>
+
+<xs:complexType name="DisplaySharesResponse">
+<xs:sequence>
+<xs:element name="return" type="ns1:Share" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AddShare">
+<xs:sequence>
+<xs:element name="companySymbol" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="AddShareResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DatatypeConfigurationException">
+<xs:sequence>
+<xs:element name="message" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SellShares">
+<xs:sequence>
+<xs:element name="shareSymbol" type="xs:string" minOccurs="0"/>
+<xs:element name="amountOfShares" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SellSharesResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

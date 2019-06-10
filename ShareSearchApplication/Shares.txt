@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ShareList xmlns="http://xml.netbeans.org/schema/SharesSchema">
+    <shares>
+        <companyName>Alphabet Inc.</companyName>
+        <companySymbol>GOOG</companySymbol>
+        <availableShares>10000</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Technology</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>1067.095</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Arconic Inc.</companyName>
+        <companySymbol>ARNC</companySymbol>
+        <availableShares>10010</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Industrials</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>18.4</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Chesapeake Energy Corporation</companyName>
+        <companySymbol>CHK</companySymbol>
+        <availableShares>10010</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Energy</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>2.685</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Advanced Micro Devices Inc.</companyName>
+        <companySymbol>AMD</companySymbol>
+        <availableShares>10003</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Technology</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>20.42</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Nike Inc.</companyName>
+        <companySymbol>NKE</companySymbol>
+        <availableShares>9993</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Consumer Cyclical</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>79.9</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Encana Corporation</companyName>
+        <companySymbol>ECA</companySymbol>
+        <availableShares>10000</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Energy</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>6.8</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Merck &amp; Company Inc. (new)</companyName>
+        <companySymbol>MRK</companySymbol>
+        <availableShares>10000</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Healthcare</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>73.66</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Halliburton Company</companyName>
+        <companySymbol>HAL</companySymbol>
+        <availableShares>10000</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Energy</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>31.65</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Southwest Airlines Company</companyName>
+        <companySymbol>LUV</companySymbol>
+        <availableShares>10000</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Industrials</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>53.02</value>
+        </sharePrice>
+    </shares>
+    <shares>
+        <companyName>Apple Inc.</companyName>
+        <companySymbol>AAPL</companySymbol>
+        <availableShares>10000</availableShares>
+        <priceUpdated>2019-01-24Z</priceUpdated>
+        <sector>Technology</sector>
+        <sharePrice>
+            <currency>USD</currency>
+            <value>151.915</value>
+        </sharePrice>
+    </shares>
+</ShareList>
